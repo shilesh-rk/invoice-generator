@@ -1,0 +1,138 @@
+body {
+  background-color: #ffffff;
+}
+
+button {
+  color: rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #11800f;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.invoice {
+  background-color: #fff;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.invoice-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.invoice-form label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  color: #333;
+  vertical-align: middle;
+}
+
+.invoice-form input[type="text"],
+.invoice-form input[type="number"] {
+  width: calc(100% - 200px);
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  vertical-align: middle;
+}
+
+.invoice-form textarea {
+  width: calc(100% - 200px);
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.remove-item {
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 0.3em;
+  font-size: 0.8em;
+  background-color: #ee2828;
+}
+
+/* =========invoice========== */
+#logo {
+  float: left;
+}
+
+#type {
+  float: right;
+  padding-top: 2%;
+}
+
+#left {
+  padding-top: 2%;
+  text-align: left;
+}
+
+#right {
+  float: right;
+  padding-top: 5%;
+  text-align: right;
+}
+
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  max-width: 150px;
+}
+
+.item-details {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.item-details td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.item-details th {
+  background-color: #abaaaa;
+}
